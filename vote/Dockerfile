@@ -17,7 +17,7 @@ RUN pip install -r requirements.txt
 # Copy our code from the current folder to /app inside the container
 COPY . .
 
-# Make port 80 available for links and/or publish
+# Make port 8080 available for links and/or publish
 EXPOSE 8080
 
 # Define our command to be run when launching the container
